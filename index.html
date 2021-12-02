@@ -12,7 +12,13 @@
 <body>
     
     <div id="root">
+
+        <!-- h1 con testo proveniente da VueJs -->
         <h1>{{ titleMessage }}</h1>
+
+        <!-- Immagine presa con v-bind dal VueJs, tramite la proprietà 'imageFromVue' -->
+        <img :src="imageFromVue" alt="Landscape Image">
+        
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>

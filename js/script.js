@@ -10,7 +10,8 @@ const app = new Vue(
     {
         el: '#root',
         data: {
-            titleMessage: 'Ciao sono un messaggio e vengo da VueJs!'
+            titleMessage: 'Ciao sono un messaggio e vengo da VueJs!',
+            imageFromVue : 'https://www.aiapp.net/wp-content/uploads/2020/09/Agricoltura.jpg'
         }
     }
 )
